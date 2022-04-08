@@ -5,9 +5,10 @@
     <!-- Metadata for this site -->
     <meta charset="utf-8">
     <meta name="description" content="Traffic to USD calculator">
-    <meta name="keywords" content="RPM calculator">
+    <meta name="keywords" content="immaculata, ics2o">
     <meta name="author" content="Joseph Kwon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
 
     <!-- Favicon for this site -->
     <link rel="apple-touch-icon.png" sizes="180x180" href="./fav_index/favicon-16x16.png">
@@ -15,10 +16,25 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
     <link rel="manifest" href="./fav_index/site.webmanifest">
 
+    <title>Traffic to USD calculator</title>
+    
   </head>
   <body>
     
     <link rel="stylesheet" href="./css/style.css">
-
+   <script src="./js/script.js"></script>
+    <h1>Traffic to USD calculator</h1>
+    <p>
+      <h3>Please enter the following:</h3>
+      <form action="javascript:enterClicked()">
+        <label for="totalviews">Total views</label>
+        <input type="text" id="your-total-views" placeholder="Your total views"><br><br>
+        <input type="submit" value="Enter">
+      </form>
+    </p>
+		<!-- Create a space where the user information will be displayed -->
+    <div id="user-info">
+    </div>
+    
   </body>
 </html>

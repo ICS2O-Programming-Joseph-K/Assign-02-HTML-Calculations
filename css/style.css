@@ -3,8 +3,8 @@ body {
 }
 
 h1 {
-  background-color: #cccccc;
-  color: hsl(0, 0%, 80%);
+  background-color: #00ffbf;
+  color: hsl(0, 0%, 0%);
   padding: 40px;
   text-align: center;
 }
